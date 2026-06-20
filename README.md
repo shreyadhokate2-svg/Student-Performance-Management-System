@@ -100,3 +100,18 @@ https://github.com/shreyadhokate2-svg/Student-Performance-Management-System
 ## License
 
 This project is created for educational and learning purposes.
+
+## Screenshots
+
+### Home Page
+<img width="1867" height="860" alt="image" src="https://github.com/user-attachments/assets/ff823d75-bac1-4092-8256-b814364633bc" />
+
+
+### Add Student Page
+<img width="1175" height="806" alt="image" src="https://github.com/user-attachments/assets/173d3bac-b119-4c70-a0fa-335800a818af" />
+
+
+### Search Student Page
+<img width="1785" height="707" alt="image" src="https://github.com/user-attachments/assets/2440e767-d7af-491e-a327-067f66eeb823" />
+
+
