@@ -8,8 +8,8 @@ def connect():
         host="mysql-34277b27-shreyadhokate2-8f8d.h.aivencloud.com",
         port=26664,
         user="avnadmin",
-        password="YOUR_AIVEN_PASSWORD",
-        database="defaultdb",
+        password="PASTE_THE_ACTUAL_AIVEN_PASSWORD_HERE",
+        database="defaultdb"
     )
 
 @app.route("/")
