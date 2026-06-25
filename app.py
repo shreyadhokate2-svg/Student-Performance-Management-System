@@ -1,17 +1,17 @@
+import os
 import pymysql
 from flask import Flask, render_template, request, redirect
-import mysql.connector
 
 app = Flask(__name__)
+
 def connect():
     return pymysql.connect(
         host="mysql-34277b27-shreyadhokate2-8f8d.h.aivencloud.com",
         port=26664,
         user="avnadmin",
-        password="YOUR_ACTUAL_PASSWORD",
+        password=os.environ.get("DB_PASSWORD"),
         database="defaultdb"
     )
-
 @app.route("/")
 def home():
 
