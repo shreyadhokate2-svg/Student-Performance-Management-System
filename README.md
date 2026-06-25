@@ -13,11 +13,12 @@ A web-based Student Performance Management System developed using Flask, MySQL, 
 
 ## Technologies Used
 
-- Python
-- Flask
-- MySQL
-- HTML
-- CSS
+Python
+Flask
+PyMySQL
+MySQL
+HTML
+CSS
 
 ## Project Structure
 
@@ -56,9 +57,12 @@ cd Student-Performance-Management-System
 
 3. Install required packages:
 
-```bash
+Install required packages:
+
 pip install flask
-pip install mysql-connector-python
+pip install PyMySQL
+pip install gunicorn
+pip install cryptography
 ```
 
 4. Configure MySQL database according to your local setup.
