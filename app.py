@@ -10,7 +10,8 @@ def connect():
         port=26664,
         user="avnadmin",
         password=os.environ.get("DB_PASSWORD"),
-        database="defaultdb"
+        database="defaultdb",
+        ssl={"ssl": {}}
     )
 @app.route("/")
 def home():
