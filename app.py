@@ -10,7 +10,6 @@ def connect():
         user="avnadmin",
         password="YOUR_AIVEN_PASSWORD",
         database="defaultdb",
-        ssl_disabled=False
     )
 
 @app.route("/")
