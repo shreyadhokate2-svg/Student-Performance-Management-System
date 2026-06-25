@@ -18,7 +18,7 @@ def connect():
         password=os.environ.get("DB_PASSWORD"),
         database="defaultdb",
         ssl={
-            "ssl": True
+            "ca": None
         }
     )
 @app.route("/")
