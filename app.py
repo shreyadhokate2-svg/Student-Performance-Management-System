@@ -8,7 +8,7 @@ def connect():
         host="mysql-34277b27-shreyadhokate2-8f8d.h.aivencloud.com",
         port=26664,
         user="avnadmin",
-        password="PASTE_THE_ACTUAL_AIVEN_PASSWORD_HERE",
+        password="AVNS_ronhaTvwprzl75v_NQq",
         database="defaultdb"
     )
 
