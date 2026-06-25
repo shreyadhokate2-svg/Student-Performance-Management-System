@@ -4,6 +4,12 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
+import os
+import pymysql
+from flask import Flask, render_template, request, redirect
+
+app = Flask(__name__)
+
 def connect():
     return pymysql.connect(
         host="mysql-34277b27-shreyadhokate2-8f8d.h.aivencloud.com",
@@ -11,7 +17,9 @@ def connect():
         user="avnadmin",
         password=os.environ.get("DB_PASSWORD"),
         database="defaultdb",
-        ssl={"ssl": {}}
+        ssl={
+            "ssl": True
+        }
     )
 @app.route("/")
 def home():
