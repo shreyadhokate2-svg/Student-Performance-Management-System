@@ -13,13 +13,11 @@ app = Flask(__name__)
 def connect():
     return pymysql.connect(
         host="mysql-34277b27-shreyadhokate2-8f8d.h.aivencloud.com",
-        port=26664,
+        port=26660,
         user="avnadmin",
         password=os.environ.get("DB_PASSWORD"),
         database="defaultdb",
-        ssl={
-            "ca": None
-        }
+        ssl={"ssl": True}
     )
 @app.route("/")
 def home():
