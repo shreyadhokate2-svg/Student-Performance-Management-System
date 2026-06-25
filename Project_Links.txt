@@ -1,0 +1,7 @@
+Student Performance Management System
+
+Railway (Live Website):
+https://student-performance-management-system-production.up.railway.app/
+
+GitHub (Source Code):
+https://github.com/shreyadhokate2-svg/Student-Performance-Management-System
