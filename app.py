@@ -5,12 +5,13 @@ app = Flask(__name__)
 
 def connect():
     return mysql.connector.connect(
-            host="mysql-34277b27-shreyadhokate2-8f8d.h.aivencloud.com",
-            user="avnadmin",
-            password="Shreya@8902",
-            port=26660,
-            database="student_tracker"
-        )
+        host="mysql-34277b27-shreyadhokate2-8f8d.h.aivencloud.com",
+        port=26664,
+        user="avnadmin",
+        password="YOUR_AIVEN_PASSWORD",
+        database="defaultdb",
+        ssl_disabled=False
+    )
 
 @app.route("/")
 def home():
