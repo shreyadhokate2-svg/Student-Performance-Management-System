@@ -10,7 +10,7 @@ def connect():
             user="avnadmin",
             password="Shreya@8902",
             port=26660,
-            database="defaultdb"
+            database="student_tracker"
         )
     )
 
